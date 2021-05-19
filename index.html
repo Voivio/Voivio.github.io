@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Dongyin's Website</title>
+    <link rel="icon" href="img/favicon.jpg">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+    <style>
+        .menu-index {
+            color: rgb(255, 255, 255) !important;
+            opacity: 1 !important;
+            font-weight: 700 !important;
+        }
+    </style>
+</head>
+
+<body>
+<div class="menu-container"></div>
+<div class="content-container">
+    <div class="content">
+        <div class="content-table flex-column">
+
+            <!--Start Intro-->
+            <div class="flex-row">
+                <div class="flex-item flex-column">
+                    <a target="_blank" href="img/headshot_bigger.jpg"><img class="image" src="img/headshot_bigger.jpg"></a>
+                </div>
+                <div class="flex-item flex-column">
+                    <p class="text text-large">
+                        Dongyin HU<br>
+                        <a href="mailto:dyhu@mail.ustc.edu.cn">dyhu@mail.ustc.edu.cn</a><br>
+                        <a href="mailto:huwindy@hotmail.com">huwindy@hotmail.com</a>
+                    </p>
+                    <p class="text">
+                        University of Science and Technology of China,<br>
+                        B.Eng. from School of Information Science and Technology,<br>
+                        GPA : 3.91/4.30, ranking <b>2</b>/60 (Dpt.) <b>11</b>/363 (Sch.) (<a
+                            href="files/Transcript_both.pdf">Tscpt.</a>) <br>
+                    </p>
+                    <p class="text">
+                        Incoming student of UCSD ECE department.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="flex-item flex-column">
+                    <p class="text add-top-margin">
+                        Welcome to Dongyin Hu's personal website. I earned my B.Eng. degree from University of Science
+                        and Technology of China in Jul, 2020
+                        and will continue my education in University of California, San Diego.
+                        My research interests lie in <b>networking, mobile and wireless networks</b>, and
+                        develop interactive systems using these techniques. I believe research in this field will enable
+                        modern electronic devices which are capable to benefit all.
+                    </p>
+                </div>
+            </div>
+
+            <!--Publications-->
+            <div class="flex-row">
+                <div class="flex-item flex-column">
+                    <h2 class="add-top-margin">Publications</h2>
+                    <hr>
+                    <!--2020-->
+                    <h3>2020</h3>
+
+                    <ol class="publication C-list">
+                        <li>
+                            <p class="text-small-margin">
+                                Jiaming Wang, <b>Dongyin Hu</b>, Chirag Shetty, and Haitham Hassanieh. 2020.
+                                <em>Understanding and Embracing the Complexities of the Molecular Communication Channel
+                                    in Liquids</em>.
+                                In <a target="_blank" href="https://www.sigmobile.org/mobicom/2020/accepted.php">MobiCom’20</a>.
+                            </p>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+
+            <!--Research-->
+            <div class="flex-row">
+                <div class="flex-item flex-column">
+                    <h2 class="add-top-margin">Research</h2>
+                    <hr>
+                    <!--MilliBack-->
+                    <h3><em>Milliback</em> : Real-Time Plug-n-Play mm-Level Tracking Using Wireless Backscattering</h3>
+                    <p class="text">
+                        <em>University of Science and Technology of China, Lab for Intelligent Networking and Knowledge
+                            Engineering
+                            (<a target="_blank" href="http://linke.ustc.edu.cn/">LINKE</a>)</em><br>
+
+                        Published in <a target="_blank" href="https://dl.acm.org/citation.cfm?id=3351270"><b>UbiComp
+                        19</b></a>. From Jan 2018 - Aug 2019.
+                    </p>
+                    <p class='text'>
+                        <video preload controls autoplay loop muted playsinline
+                               class="image image-wrap-text max-width-400">
+                            <source src="vid/milliback.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        In <em>Milliback</em>, we devised a real-time accurate tracking system using wireless
+                        backscatter signals.
+                        This is especially useful for applications such as AI-assisted education, remote healthcare,
+                        and handwriting-training for kids. Existing sensing modalities (such as inertial, vision or
+                        Wi-Fi)
+                        fail to offer the necessary accuracy (mm-level) due to occlusion, error accumulation or
+                        deployment cost.
+                        Therefore, we focused on low-cost RFID tags, and utilized GHz signals to reach high accuracy for
+                        their sensitivity to distance change.
+                        However, this posed a new challenge for us: we had to discard current RFID protocol due to
+                        frequency mismatch,
+                        and thus also discarded much information about the channel state.
+                        I proposed and implemented two O(n) tracking algorithms with a little knowledge of channel,
+                        and actively assisted in the design of two corresponding systems consisting of multiple
+                        receivers and one position-constrained/free transmitter.
+                        The system reaches an excellent performance of merely <b>4.9mm</b> mean error.
+                    </p>
+
+                    <!--μ-Link-->
+                    <h3>Understanding and Embracing the Complexities of the Molecular Communication Channel in
+                        Liquids</h3>
+                    <p class="text">
+                        <em>University of Illinois at Urbana-Champaign, System & Networking Research Group
+                            (<a target="_blank" href="https://synrg.csl.illinois.edu/">SyNRG</a>)</em><br>
+
+                        Published in <a target="_blank" href="https://www.sigmobile.org/mobicom/2020/accepted.php"><b>MobiCom'20</b></a>,
+                        with me as second author. From Jul 2019 - Sep 2019.
+                    </p>
+                    <p class="text">
+                        <img class="image image-wrap-text max-width-400" src="img/mu-Link.jpg">
+                        Using molecular communication (MC) to build a network within the human body is promising, yet
+                        not well understood.
+                        A key challenge lies in the different channel properties of MC and traditional communication
+                        methods.
+                        Our proposed MC protocol, <em>μ-Link</em>, tackled that challenge with a Viterbi decoder that
+                        captures these properties precisely.
+                        I improved the performance of the decoder in <em>μ-Link</em> by updating the channel state
+                        information,
+                        and then modified the design of our novel macro-scale platform to achieve higher stability.
+                        Comparing with other works who model MC channels, <em>μ-Link</em> achieves <b>5x higher
+                        throughput and 20x lower bit error rate</b>,
+                        exhibiting both high efficiency and reliability. Our work is currently under submission for
+                        MobiCom, with me as the <b>second author</b>.
+                    </p>
+
+                </div>
+            </div>
+
+            <!--Scholarships and Honors-->
+            <div class="flex-row">
+                <div class="flex-item flex-column">
+                    <h2 class="add-top-margin">Scholarships and Honors</h2>
+                    <hr>
+                    <ul>
+                        <li><b>Honorary Rank</b>, 2019
+                            <ul>
+                                <li>Graduation honor, top 5%.</li>
+                            </ul>
+                        </li>
+                        <li><b>TANG Lixin Scholarship</b>, 2019
+                            <ul>
+                                <li>60 out of the whole university, including undergraduate and graduate students.</li>
+                            </ul>
+                        </li>
+                        <li><b>National Scholarship</b>, 2019
+                            <ul>
+                                <li>7 out of 363.</li>
+                            </ul>
+                        </li>
+                        <li><b>Scholarship of Institute of Microsystem and Information Technology</b>, 2018
+                            <ul>
+                                <li>11 out of 363.</li>
+                            </ul>
+                        </li>
+                        <li><b>Outstanding Student Scholarship, USTC</b>, 2017 & 2016</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
